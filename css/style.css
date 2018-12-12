@@ -180,14 +180,15 @@ ul.top-bar-menu {
 }
 
 ul.top-bar-menu li {
-	font-size: 13px;
+	font-size: 18px;
+	font-weight: 700;
 	display: inline-block;
 	margin: 0 20px 0 0;
 	letter-spacing: 0 !important;
 }
 
 ul.top-bar-menu li a {
-	color: #888;
+	color: #f00;
 }
 
 ul.top-bar-menu li i {
@@ -11504,5 +11505,10 @@ body.loaded #header-container.moz-fix { opacity: 1; }
 		font-size: 13px; 
 	}
 	#reset a.button:hover { color: #333; background-color: #fff; }
+	
+	.services-header {
+		font-weight: 600;
+		color: #0f0; 
+	}
 	
 	@media only screen and (max-width: 1024px) {#style-switcher {display: none;}}
