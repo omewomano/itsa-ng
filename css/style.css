@@ -516,6 +516,7 @@ body.uppercase .menu > li > a {
 	visibility: visible;
 }
 
+#mapid { height: 180px; }
 
 /* Other Menu Styles */
 .basic #main-header #navigation,
@@ -5489,6 +5490,7 @@ body .tags a { letter-spacing: 1px; text-transform: uppercase; }
 	-o-background-size: cover;
 	background-size: cover;
 }
+
 
 .edge-bg:before {
 	position: absolute;
@@ -10946,7 +10948,7 @@ body .notification strong { border: none; }
 	.office-address {  padding: 60px 0 !important; }
 	#googlemaps { height: 30vh !important; padding-bottom: 0 !important; }
 
-	.edge-bg.with-map { height: 30vh !important; margin-bottom: 30px;}
+	.edge-bg.with-map { height: 100%; margin-left: 10%}
 	.image-edge #googlemaps,
 	.image-edge .google-map-container {
 	    height: 100% !important;
