@@ -11514,7 +11514,13 @@ body.loaded #header-container.moz-fix { opacity: 1; }
 	}
 	
 	@media only screen and (max-width: 1024px) {#style-switcher {display: none;}}
-/* .social-media-bar{
-	background-color: #444;
-	border: dashed 2px red
-} */
+
+	@font-face {
+		font-family: "Cooper Black";
+		src: url("/fonts/cooper-black.otf");
+	  }
+	  .omano{
+		font-family: "cooper-black-std", serif;
+		font-style: normal;
+		font-weight: 600;
+	  }
